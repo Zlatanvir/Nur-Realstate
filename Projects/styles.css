@@ -1,0 +1,54 @@
+
+/* PROJECTS-1 */
+
+#project-1 {
+  background-color: #E0E0E0;
+  height: 900px;
+  background-image: url("../images/projects.png");
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  margin-left: 50px;
+}
+
+.brand-logo {
+  width: 20%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+/* PROJECT-2 */
+
+#project-2{
+  background-color: #E0E0E0;
+  background-repeat: no-repeat;
+  background-image: url("../images/projects2.png");
+  margin-top: 10px;
+  height: 900px;
+}
+
+#project-3{
+  background-color: #E0E0E0;
+  background-repeat: no-repeat;
+  background-image: url("../images/project3.png");
+  height: 1000px;
+}
+
+#footer{
+  background-color: #364f6b;
+  color: #E0E0E0;
+  height: 300px;
+}

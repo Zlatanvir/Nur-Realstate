@@ -1,0 +1,288 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #14274e;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #f1f6f9;
+}
+
+.white-section {
+
+  /* background-color: #fff; */
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {}
+
+.brand-logo {
+  width: 40%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title {
+  background-color: #f1f6f9;
+  color: #14274e;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 100%;
+  position: absolute;
+  left: 20%;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  background-color: #dbe2ef;
+  background-image: url("../images/service1.png");
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+  height: 1100px;
+  line-height: 2;
+}
+
+.srvc {
+  text-align: left;
+  font-size: 4rem;
+  padding-left: 5%;
+  padding-bottom: 25%;
+  color: #dbe2ef;
+
+}
+
+#srvc-ico{
+   padding-right: 70px;
+}
+
+#srvc-ico:hover{
+  color: #30e3ca;
+}
+
+.feature-image {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+/* .icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+} */
+/* .icon:hover {
+  color: #ff4c68;
+} */
+/* Testimonial Section */
+#testimonials {
+  background-color: #f1f6f9;
+  background-image: url("../images/work.png");
+  background-repeat: no-repeat;
+  height: 1100px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#team {
+  background-color: #f1f6f9;
+  background-image: url("../images/ceo.png");
+  background-repeat: no-repeat;
+  height: 1100px;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#ttu {
+  background-color: #f1f6f9;
+  background-image: url("../images/talk.png");
+  background-repeat: no-repeat;
+  height: 1100px;
+  /* padding: 100px; */
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+#contact{
+  background-color: #f1f6f9;
+  background-image: url("../images/contact.png");
+  background-repeat: no-repeat;
+  height: 1100px;
+}
+/* Footer Section */
+#footer {
+  height: 200px;
+}
+#footer-logo:hover{
+  color: #30e3ca;
+}
+#footer-icon {
+  position: relative;
+  bottom: 70px;
+}
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* MEDIA FOR TITLE */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* MEDIA FOR SERVICE */
+@media (max-width: 1028px) {
+  #features {
+    background-color: #f1f6f9;
+    background-image: url("../images/resized-1028px/1.png");
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .srvc {
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 5%;
+    padding-bottom: 25%;
+    color: #dbe2ef;
+    margin-top: 300px;
+    line-height: 2;
+  }
+
+
+}
+
+/* MEDIA FOR WORK*/
+@media (max-width: 1028px) {
+  #testimonials {
+    background-color: #f1f6f9;
+    background-image: url("../images/resized-1028px/2.png");
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+
+}
+
+/* MEDIA FOR TEAM */
+@media (max-width: 1028px) {
+  #team {
+    background-color: #f1f6f9;
+    background-image: url("../images/resized-1028px/3.png");
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+
+}
+
+/* MEDIA FOR TALK TO US */
+@media (max-width: 1028px) {
+  #ttu {
+    background-color: #f1f6f9;
+    background-image: url("../images/resized-1028px/4.png");
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+
+}
+
+/* MEDIA FOR CONTACT */
+@media (max-width: 1028px) {
+  #contact {
+    background-color: #f1f6f9;
+    background-image: url("../images/resized-1028px/5.png");
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  .
+}
